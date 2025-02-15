@@ -1,0 +1,80 @@
+body {
+    background: rgba(6, 10, 27, 0.973);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: rgba(0, 255, 234);
+    font-size: 30px;
+}
+
+.container {
+    background: rgb(22, 50, 73);
+    padding: 20px 18px 16px 18px;
+    text-align: center;
+    border-radius: 16px;
+    border: none;
+}
+
+input {
+    border-radius: 10px;
+    border: 1px solid rgb(56, 86, 129);
+    padding: 10px;
+    margin: 5px;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 200px;
+
+}
+
+input:hover {
+    transform: scale(1.1);
+    border: 1px solid rgb(0, 255, 234);
+    text-decoration-color: aliceblue;
+}
+
+.senha {
+    font-size: smaller;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: rgb(9, 92, 124);
+    border-radius: 50px;
+    height: 30px;
+    width: 100px;
+    margin-top: 16px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transform-box: stroke-box;
+    transition: 0.3s;                  
+    color: aliceblue;
+}
+
+button:hover {
+    color: rgb(16, 18, 44);
+    transform: scale(1.1);
+    background: rgb(0, 255, 234);
+}
+
+p {
+    color: aliceblue;
+    margin-top: 15px;
+    font-size: small;
+}
+
+a {
+    color: rgb(0, 255, 234);
+    cursor: pointer;
+    transition: 0.3s;
+}
